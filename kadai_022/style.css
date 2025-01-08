@@ -37,9 +37,9 @@ h2::before {
   color: rgb(239, 111, 139);
 }
 
-p:nth-child(3)::first-letter {
-    font-weight: bold;
-    color: rgb(97, 206, 249);
+.contents p:nth-child(3)::first-letter {
+  font-weight: bold;
+  color: rgb(97, 206, 249);
 }
 
 footer {
@@ -70,7 +70,8 @@ a:hover {
   }
 
   #parent {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   img {
