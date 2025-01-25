@@ -69,7 +69,7 @@ PC用のスタイル
 }
 
 /* スマホ用のナビゲーションメニュー */
-@media screen and (max-width : 768px) {
+@media screen and (max-width: 767px) {
   body {
     min-width: 375px;
     max-width: 767px;
